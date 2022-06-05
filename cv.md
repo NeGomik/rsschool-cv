@@ -1,4 +1,4 @@
-# ***Artiom Domkin***
+# **Artiom Domkin**
 
 ![Artiom Domkin Ava](https://i.imgur.com/93SHhZx.jpg)
 
