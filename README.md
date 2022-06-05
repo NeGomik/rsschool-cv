@@ -1,1 +1,1 @@
-# rsschool-cv
+https://negomik.github.io/rsschool-cv/cv
