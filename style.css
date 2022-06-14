@@ -1,1 +1,493 @@
-asdasd
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Noto+Sans&family=Shadows+Into+Light&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+    color: rgb(199, 142, 19);
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h2,
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 150%;
+    text-shadow: 1px 1px 20px rgba(50, 230, 65, 0.616);
+    text-align: center;
+}
+
+h6 {
+    font-size: 50px;
+    display: flex;
+    position: absolute;
+    opacity: 0;
+}
+
+body {
+    display: flexbox;
+    background-color: #000000ef;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+#Fire1 {
+    display: flex;
+    opacity: 0.9;
+}
+
+#Fire2 {
+    display: flex;
+    right: 0;
+    opacity: 0.9;
+}
+
+.menu {
+    display: flex;
+    padding-top: 1.5vw;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(231, 227, 227);
+}
+
+.menu li {
+    font-size: 1vw;
+    display: flex;
+    padding: 1vw 1.2vw 1vw 1.2vw;
+    transition: 250ms;
+}
+
+.menu li:hover {
+    transform: scale(1.2, 1.2);
+    text-shadow: 0px 0px 20px #00b3ffc2;
+}
+
+#home {
+    margin-top: 7%;
+    display: flex;
+    position: relative;
+}
+
+#nic {
+    position: relative;
+    font-size: 200%;
+    animation: home-animation 2.8s linear infinite;
+    margin-top: 110px;
+    margin-bottom: 60%;
+}
+
+#gif2 {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    height: 300px;
+    border: 3px solid #242424;
+    border-radius: 5%;
+}
+
+.gif2:before {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    top: 73px;
+    right: 29px;
+    bottom: 0px;
+    background: linear-gradient(90deg, #03a9f4, #088f30, #c78e13);
+    background-size: 400%;
+    border-radius: 1000px;
+}
+
+.gif2:before {
+    filter: blur(200px);
+    animation: animate 10s infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+@keyframes home-animation {
+    0% {
+        text-shadow: -40px -40px 100px #c78e13, 40px 40px 100px #088f30, 0px 0px 2px #ffffff;
+    }
+    25% {
+        text-shadow: 21px -30px 100px #c78e13, -42px 28px 100px #088f30, 0px 0px 3px #ffffff;
+    }
+    50% {
+        text-shadow: 34px 30px 100px #c78e13, -40px -20px 100px #088f30, 0px 0px 1px #ffffff;
+    }
+    75% {
+        text-shadow: -49px 0px 100px #c78e13, 30px 20px 100px #088f30, 0px 0px 3px #ffffff;
+    }
+    100% {
+        text-shadow: -40px -40px 100px #c78e13, 40px 40px 100px #088f30, 0px 0px 2px #ffffff;
+    }
+}
+
+.me {
+    margin-bottom: 60%;
+}
+
+#me {
+    padding-top: 10%;
+}
+
+.aboutme1 {
+    display: flex;
+    margin-top: 4%;
+}
+
+#Senco2 {
+    height: 350px;
+    border: 3px solid #242424;
+    border-radius: 10%;
+    box-shadow: 0px 0px 60px #99861742;
+}
+
+#HomeStyl {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-shadow: 0px 0px 20px #375abb;
+}
+
+
+/* какалификация */
+
+.quali {
+    margin-bottom: 60%;
+}
+
+.quali2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    place-items: center;
+}
+
+#QUALIFICATION1 {
+    padding-top: 11%;
+    font-size: 150%;
+    text-align: center;
+}
+
+#QUALIFICATIONdiv1 {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 4% 8%;
+    line-height: 1.8;
+}
+
+
+/* скилы */
+
+.SKILLS {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 60%;
+}
+
+#SKILLS1 {
+    padding-top: 50%;
+}
+
+.skills li {
+    list-style: none;
+}
+
+.SpisokSKILS {
+    margin-top: 20%;
+}
+
+.progress {
+    width: 300px;
+    padding-top: 0.1rem;
+    padding-bottom: 0.3rem;
+    box-shadow: 0px 0px 100px #856d0534;
+}
+
+.progress progress {
+    opacity: 1;
+    width: 100%;
+    background-color: #8c3a751c;
+    border: 1px solid rgb(233, 236, 206);
+}
+
+
+/* сюртификаты */
+
+.all {
+    height: 100%;
+    margin-bottom: 40%;
+}
+
+#controls {
+    position: relative;
+    margin: -25% 0 0 0;
+    width: 100%;
+    height: 50px;
+}
+
+#slider {
+    padding-top: 2%;
+    width: 70%;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+#slider {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#slides article {
+    width: 20%;
+    float: left;
+}
+
+#slides .image {
+    width: 500%;
+    line-height: 0;
+}
+
+#overflow {
+    width: 100%;
+    overflow: hidden;
+}
+
+article img {
+    width: 100%;
+}
+
+#switch1:checked~#controls label:nth-child(3),
+#switch2:checked~#controls label:nth-child(1),
+#switch3:checked~#controls label:nth-child(2) {
+    background: url('Сертификат/prev.png') no-repeat;
+    float: left;
+    margin: -90px 0 0 -84px;
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+
+#switch1:checked~#controls label:nth-child(2),
+#switch2:checked~#controls label:nth-child(3),
+#switch3:checked~#controls label:nth-child(1) {
+    background: url('Сертификат/next.png') no-repeat;
+    float: right;
+    margin: -90px -84px 0 0;
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+
+label,
+a {
+    cursor: pointer;
+}
+
+.all input {
+    display: none;
+}
+
+#switch1:checked~#slides .image {
+    margin-left: 0;
+}
+
+#switch2:checked~#slides .image {
+    margin-left: -100%;
+}
+
+#switch3:checked~#slides .image {
+    margin-left: -200%;
+}
+
+#active label {
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: rgba(173, 167, 167, 0.521);
+    transition: 170ms;
+}
+
+#active {
+    margin: 23% 0 0;
+    text-align: center;
+}
+
+#active label:hover {
+    background: #76c8ff;
+    border-color: #777 !important;
+}
+
+#switch1:checked~#active label:nth-child(1),
+#switch2:checked~#active label:nth-child(2),
+#switch3:checked~#active label:nth-child(3) {
+    background: #18a3dd;
+    border-color: #18a3dd !important;
+}
+
+#slides .image {
+    transition: all 300ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#controls label:hover {
+    opacity: 0.6;
+}
+
+#controls label {
+    transition: opacity 0.2s ease-out;
+}
+
+#CERTIFICATE2 {
+    padding-top: 8%;
+    font-size: 150%;
+    text-align: center;
+}
+
+#HTML {
+    width: 700px;
+    height: 550px;
+}
+
+#JS {
+    width: 700px;
+    height: 550px;
+}
+
+#PHP {
+    width: 700px;
+    height: 550px;
+}
+
+#IconTG {
+    width: 5%;
+}
+
+#IconGit {
+    width: 12.7%;
+}
+
+#IconPhonk {
+    width: 5.5%;
+}
+
+#IconPhonk1 {
+    display: inline-block;
+    position: relative;
+}
+
+#IconPhonk1:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -10%;
+    top: -180%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.9);
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+
+#IconPhonk {
+    width: 7.3%;
+}
+
+#IconEmail1 {
+    width: 5.5%;
+}
+
+#IconEmail {
+    display: inline-block;
+    position: relative;
+}
+
+#IconEmail:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 5%;
+    top: -100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.9);
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+
+
+/* code  */
+
+#CODEEXAMPLE {
+    margin-bottom: 60%;
+}
+
+#CODEEXAMPLEText {
+    padding-top: 12%;
+    padding-bottom: 3%;
+}
+
+.codeblock {
+    overflow: auto;
+    width: 100%;
+    height: 400px;
+}
+
+footer {
+    display: flex;
+    place-items: center;
+    background-color: rgba(248, 248, 248, 0.055);
+}
+
+
+/* Contacts */
+
+#CONTACTS {
+    display: flexbox;
+    margin-bottom: 60%;
+}
+
+#CONTACTSText {
+    padding-top: 16%;
+}
+
+.contact-ul {
+    display: grid;
+    place-items: center;
+    margin: 5% 0% 5% 0%;
+    line-height: 1.5;
+    text-shadow: 0px 0px 10px #2fc50ab4;
+}
+
+
+/* footer */
+
+.img_rs_footer {
+    margin: auto;
+}
+
+.text_footer {
+    margin: auto;
+    font-size: 1.5vw;
+    text-shadow: 0px 0px 10px rgba(165, 236, 162, 0.219);
+}
+
+.img_git_footer {
+    margin: auto;
+}
